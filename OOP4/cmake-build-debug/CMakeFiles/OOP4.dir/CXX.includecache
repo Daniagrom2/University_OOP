@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Danik/CLionProjects/UNI/OOP4/ArrayStack.h
+Stack.h
+/Users/Danik/CLionProjects/UNI/OOP4/Stack.h
+vector
+-
+
+/Users/Danik/CLionProjects/UNI/OOP4/Demonstration.h
+LinkedStack.h
+/Users/Danik/CLionProjects/UNI/OOP4/LinkedStack.h
+ArrayStack.h
+/Users/Danik/CLionProjects/UNI/OOP4/ArrayStack.h
+
+/Users/Danik/CLionProjects/UNI/OOP4/LinkedStack.h
+Stack.h
+/Users/Danik/CLionProjects/UNI/OOP4/Stack.h
+list
+-
+
+/Users/Danik/CLionProjects/UNI/OOP4/Stack.h
+
+/Users/Danik/CLionProjects/UNI/OOP4/main.cpp
+iostream
+-
+Stack.h
+/Users/Danik/CLionProjects/UNI/OOP4/Stack.h
+ArrayStack.h
+/Users/Danik/CLionProjects/UNI/OOP4/ArrayStack.h
+LinkedStack.h
+/Users/Danik/CLionProjects/UNI/OOP4/LinkedStack.h
+Demonstration.h
+/Users/Danik/CLionProjects/UNI/OOP4/Demonstration.h
+
