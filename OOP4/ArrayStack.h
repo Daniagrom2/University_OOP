@@ -7,7 +7,12 @@
 #include "Stack.h"
 #include <vector>
 using namespace std;
-class ArrayStack:Stack {
+class Reverse{
+public:
+    virtual void reverse() = 0;
+};
+
+class ArrayStack:Stack,Reverse {
 public:
     void push(int data) {
 stack.push_back(data);
@@ -29,6 +34,22 @@ stack.push_back(data);
 
     void clear() {
 stack.clear();
+    }
+    void reverse() {
+        int size = stack.size();
+        for (int i = stack.size()-1; i >-1 ; i--) {
+            push(stack[i]);
+        }
+        for (int i = 0; i < size; i++) {
+            auto it = stack.begin();
+            stack.erase(it);
+            it++;
+        }
+    }
+    void show_all(){
+        for (int i = 0; i < stack.size(); ++i) {
+            cout<<stack[i]<<"\t";
+        }
     }
 
 private:
