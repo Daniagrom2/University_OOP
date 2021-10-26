@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Danik/CLionProjects/UNI/OOP5/Country.cpp
+Country.h
+/Users/Danik/CLionProjects/UNI/OOP5/Country.h
+
+/Users/Danik/CLionProjects/UNI/OOP5/Country.h
+
+/Users/Danik/CLionProjects/UNI/OOP5/Parcel.cpp
+Parcel.h
+/Users/Danik/CLionProjects/UNI/OOP5/Parcel.h
+
+/Users/Danik/CLionProjects/UNI/OOP5/Parcel.h
+vector
+-
+
+/Users/Danik/CLionProjects/UNI/OOP5/Student.cpp
+Student.h
+/Users/Danik/CLionProjects/UNI/OOP5/Student.h
+
+/Users/Danik/CLionProjects/UNI/OOP5/Student.h
+
+/Users/Danik/CLionProjects/UNI/OOP5/main.cpp
+iostream
+-
+vector
+/Users/Danik/CLionProjects/UNI/OOP5/vector
+Country.h
+/Users/Danik/CLionProjects/UNI/OOP5/Country.h
+Country.cpp
+/Users/Danik/CLionProjects/UNI/OOP5/Country.cpp
+Parcel.h
+/Users/Danik/CLionProjects/UNI/OOP5/Parcel.h
+Parcel.cpp
+/Users/Danik/CLionProjects/UNI/OOP5/Parcel.cpp
+Student.h
+/Users/Danik/CLionProjects/UNI/OOP5/Student.h
+Student.cpp
+/Users/Danik/CLionProjects/UNI/OOP5/Student.cpp
+
