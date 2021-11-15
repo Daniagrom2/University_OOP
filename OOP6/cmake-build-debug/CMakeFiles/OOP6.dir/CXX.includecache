@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Danik/CLionProjects/UNI/OOP6/Extension.h
+Plane.h
+/Users/Danik/CLionProjects/UNI/OOP6/Plane.h
+
+/Users/Danik/CLionProjects/UNI/OOP6/MilitaryPlane.h
+Extension.h
+/Users/Danik/CLionProjects/UNI/OOP6/Extension.h
+
+/Users/Danik/CLionProjects/UNI/OOP6/Plane.h
+
+/Users/Danik/CLionProjects/UNI/OOP6/main.cpp
+iostream
+-
+MilitaryPlane.h
+/Users/Danik/CLionProjects/UNI/OOP6/MilitaryPlane.h
+
