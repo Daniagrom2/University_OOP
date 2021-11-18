@@ -1,5 +1,6 @@
 #include <iostream>
 #include <sstream>
+#include <fstream>
 
 using namespace std;
 //
@@ -75,6 +76,109 @@ int main() {
 //            cout << s <<" ";
 //
 //    }
+/////////////
+//05
+//    ifstream text;
+//    string name = "text.txt";
+//    string line = "";
+//    string alltext;
+//    string newtext;
+//    string newnumbers;
+//    text.open(name);
+//    int count = 0;
+//    if (text.is_open())
+//    {
+//        while (text.good())
+//        {
+//            getline(text, line);
+//            alltext += line;
+//        }
+//
+//    }
+//    text.close();
+//
+//    cout << "text\n";
+//    int prev = 0;
+//    for (int i = 0; i < alltext.size(); i++)
+//    {
+//        int A = alltext[i];
+//
+//        if (A > 64 && A < 91)
+//        {
+//            int t = A - 64;
+//            if (t < 10)
+//            {
+//                newnumbers += " " + to_string(t);
+//            }
+//            else
+//            {
+//                newnumbers += to_string(t);
+//            }
+//
+//            // new text
+//            if ((prev > 64 && prev < 91) || (prev > 96 && prev < 123))
+//            {
+//                newtext += "  ";
+//                newnumbers += " ";
+//            }
+//            newtext += alltext[i];
+//            prev = A;
+//        }
+//        else if (A > 96 && A < 123)
+//        {
+//            int t = A - 96;
+//            if (t < 10)
+//            {
+//                newnumbers += " " + to_string(t);
+//            }
+//            else
+//            {
+//                newnumbers += to_string(t);
+//            }
+//            if ((prev > 64 && prev < 91) || (prev > 96 && prev < 123))
+//            {
+//                newtext += "  ";
+//                newnumbers += " ";
+//            }
+//            newtext += alltext[i];
+//            prev = A;
+//        }
+//        else
+//        {
+//            newnumbers += alltext[i];
+//            newtext += alltext[i];
+//        }
+//    }
+//    cout << newtext << endl;
+//    cout << newnumbers << endl;
+/////////////
+//06
+//    ifstream text;
+//    string name = "text.txt";
+//    string line = "";
+//    string alltext;
+//    text.open(name);
+//    if (text.is_open())
+//    {
+//        while (text.good())
+//        {
+//            getline(text, line);
+//            alltext += line;
+//        }
+//    };
+//    text.close();
+//    cout << alltext << endl;
+//    for (int i = 0; i < alltext.size(); i++)
+//    {
+//        if (alltext[i] >= 65 && alltext[i] <= 90 || alltext[i] >= 97 && alltext[i] <= 122 || alltext[i] == 32)
+//        {
+//        }
+//        else
+//        {
+//            alltext[i] = ' ';
+//        }
+//    }
+//    cout << alltext;
 /////////////
 //07. З тексту видалити всі слова заданої довжини, що починаються на задану букву.
 //    string src = "У кожному У oлові тексту k-у букву oамінити заданим символом. Якщо k більше довжини слова, коригування не виконувати.";
